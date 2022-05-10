@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/crearCuenta.css" type="text/css">
+    <title>Biblioteca virtual | Inicio</title>
+</head>
+<body> 
+
+
+
+<div class="contenedor">
+    <form id="form" name="form" action="../libro.php" method="POST" class="form">
+        <div class="header">
+            <h1 class="titulo">Insertar Libro</h1>
+        </div>
+
+            <label for="nombre" class="form-label">Nombre del Libro:</label>
+            <input type="text" name="nombre" id = "nombre" class="form-input" placeholder="Inserta un libro">
+
+            <label for="categoria" class="form-label">Categoria del Libro:</label>
+            <input type="text" name="categoria" id="categoria" class="form-input" placeholder="Inserta la categoria">
+
+            <label for="editorial" class="form-label">Editorial del libro:</label>
+            <input type="text" name="editorial" id="editorial" class="form-input" placeholder="Inserta la editorial">
+            
+            <label for="autor" class="form-label">Autor:</label>
+            <input type="text" name="autor" id="autor" class="form-input" placeholder="Inserta el autor">
+            
+            <input id="submit" type="submit" class="btn-submit" value="Insertar Datos">
+
+            <button type="submit" class="btn-submit"><a type="submit" class="btn-submit" href="../consultar.php">Consultar Datos</a></button>
+    </form>
+</div>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="../JavaScript/crearCuenta.js"></script>
+
+</body>
+</html>
